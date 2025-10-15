@@ -1,0 +1,143 @@
+.player-cards-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.back-button-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.back-button {
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  border: 2px solid white;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.back-button:hover {
+  background: white;
+  color: #764ba2;
+  transform: translateY(-2px);
+}
+
+.player-cards-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.player-selector {
+  margin: 20px 0 30px 0;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.player-card {
+  background: linear-gradient(135deg, #ff7e5f 0%, #feb47b 100%);
+  border-radius: 20px;
+  padding: 30px 25px 35px;
+  max-width: 350px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.player-card:hover {
+  transform: translateY(-5px);
+}
+
+.player-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.player-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.team-name {
+  font-size: 1rem;
+  opacity: 0.9;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.games-played {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.chart-container {
+  margin: 10px auto 10px;
+  max-width: 240px;
+}
+
+.metrics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 0.9rem;
+  gap: 10px;
+  margin: 10px 0 15px 0;
+}
+
+.metric {
+  flex: 0 0 45%;
+  text-align: left;
+}
+
+.metric strong {
+  display: inline-block;
+  min-width: 70px;
+}
+
+.ai-report {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 12px 16px;
+  font-size: 0.9rem;
+  text-align: left;
+  margin-top: 10px;
+  border-left: 4px solid #00ff88;
+  color: #e0ffe0;
+  box-shadow: 0 0 10px rgba(0, 255, 136, 0.2);
+}
+
+.flip-tip {
+  margin-top: 15px;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
